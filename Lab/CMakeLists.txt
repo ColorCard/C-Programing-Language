@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.25)
+project(Lab C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(1-1 1-1.c)
+add_executable(1-2 1-2.c)
+add_executable(2-1-1 2-1-1.c)
+add_executable(2-1-2 2-1-2.c)
+add_executable(2-1-3 2-1-3.c)
+add_executable(2-1-4 2-1-4.c)
+add_executable(2-1-5 2-1-5.c)
+add_executable(2-1-6 2-1-6.c)
+add_executable(2-1-7 2-1-7.c)
+add_executable(2-2-1 2-2-1.c)
+add_executable(2-2-2 2-2-2.c)
+add_executable(2-2-3 2-2-3.c)

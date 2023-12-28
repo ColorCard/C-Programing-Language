@@ -18,3 +18,7 @@ typora-copy-images-to: ./img
 Source：存放《C语言程序设计》（第4版）教材源码
 
 Supplement：存放PPT、教学方案和PTA题目集
+
+PTA：存放《C语言程序设计（第4版）》PTA平台上对应的题解，均测试通过
+
+Lab：存放《C语言程序设计实验与习题指导》PTA平台上对应的题解，均测试通过
