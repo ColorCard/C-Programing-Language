@@ -1,5 +1,3 @@
-D:/data/ZJU_C/repo/Lab/ch02/cmake-build-debug/CMakeFiles/1-1.dir
-D:/data/ZJU_C/repo/Lab/ch02/cmake-build-debug/CMakeFiles/1-2.dir
 D:/data/ZJU_C/repo/Lab/ch02/cmake-build-debug/CMakeFiles/2-1-1.dir
 D:/data/ZJU_C/repo/Lab/ch02/cmake-build-debug/CMakeFiles/2-1-2.dir
 D:/data/ZJU_C/repo/Lab/ch02/cmake-build-debug/CMakeFiles/2-1-3.dir
