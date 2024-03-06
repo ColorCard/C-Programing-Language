@@ -1,8 +1,8 @@
-/*【例2-9】从键盘输入一个正整数n，计算 n! 。*/
+/*【例2-9】从键盘输入一个正整数n，计算 n! */
 
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int i, n;
     double product;                    /* 变量product中存放阶乘的值 */
 
@@ -13,6 +13,7 @@ int main(void) {
     for (i = 1; i <= n; i++) {        /* 循环执行n次，计算n! */
         product = product * i;
     }
+
     printf("product = %.0f\n", product); /* %.0f指定输出时不要小数部分 */
 
     return 0;

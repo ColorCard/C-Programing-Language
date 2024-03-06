@@ -1,9 +1,9 @@
-/* 【例4-4】逆序输出一个整数的各位数字。输入一个整数，将其逆序输出。*/
+/* 【例4-4】逆序输出一个整数的各位数字。输入一个整数，将其逆序输出 */
 
 /* 逆序输出一个整数的各位数字 */
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int number;
 
     printf("Enter a number: ");           /* 输入提示 */

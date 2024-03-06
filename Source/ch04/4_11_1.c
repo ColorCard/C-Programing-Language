@@ -3,11 +3,12 @@
 /* n人正好搬n块砖，程序版本1 三重循环*/
 # include <stdio.h>
 
-int main(void) {
+int main() {
     int children, cnt, men, n, women;
 
     printf("Enter n: ");            /* 输入提示 */
     scanf("%d", &n);
+
     cnt = 0;
 
     for (men = 0; men <= n; men++) {

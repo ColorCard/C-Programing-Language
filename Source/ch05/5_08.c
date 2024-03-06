@@ -7,7 +7,7 @@ void income(double number), expend(double number);
 
 double cash;                                /* 定义全局变量，保存现金余额 */
 
-int main(void) {
+int main() {
     int choice;
     double value;
 

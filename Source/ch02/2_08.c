@@ -1,8 +1,8 @@
-/* 【例2-8】输入一个正整数n， 计算 1 - 1/3 + 1/5 - 1/7 + … 的前 n 项之和。*/
+/* 【例2-8】输入一个正整数n， 计算 1 - 1/3 + 1/5 - 1/7 + … 的前 n 项之和 */
 
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int denominator, flag, i, n;
     double item, sum;
 

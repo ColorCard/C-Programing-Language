@@ -2,7 +2,7 @@
 
 #include <stdio.h>                    /* 编译预处理命令 */
 
-int main(void)                        /* 主函数 */
+int main()                            /* 主函数 */
 {
     int n;                            /* 变量定义 */
     int factorial(int n);             /* 函数声明 */

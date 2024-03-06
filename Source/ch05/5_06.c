@@ -6,7 +6,7 @@
 /* 函数声明 */
 void pyramid(int n);
 
-int main(void) {
+int main() {
     int n;
 
     printf("Enter n: ");

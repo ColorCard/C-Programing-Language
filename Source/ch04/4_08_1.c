@@ -3,7 +3,7 @@
 /*  从输入的n个成绩中选出最高分，用for语句实现  */
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int i, mark, max, n;            /* max中放最高分 */
 
     printf("Enter n: ");            /* 输入提示 */

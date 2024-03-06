@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int i, n, sum;
 
     printf("Enter n:");                    /* 输入提示 */

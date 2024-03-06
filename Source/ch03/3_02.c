@@ -3,7 +3,7 @@
 /* 奇偶分家 */
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int count_odd, count_even, i, n, number;
 
     count_odd = 0;            /* count_odd 记录奇数的个数 */

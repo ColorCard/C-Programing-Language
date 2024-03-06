@@ -1,9 +1,9 @@
-/*【例2-6】输入两个整数lower和 upper，输出一张华氏－摄氏温度转换表，华氏温度的取值范围是[lower, upper]，每次增加1°F。计算公式如下，式中：c表示摄氏温度，f表示华氏温度。*/
+/*【例2-6】输入两个整数lower和 upper，输出一张华氏－摄氏温度转换表，华氏温度的取值范围是[lower, upper]，每次增加1°F。计算公式如下，式中：c表示摄氏温度，f表示华氏温度 */
 
 /* 输出华氏－摄氏温度转换表，华氏温度取值[lower,upper]，每次增加1°F */
 #include <stdio.h>
 
-int main(void) {
+int main() {
     /* fahr表示华氏度, celsius为摄氏度,lower为华氏温度下限,upper为上限 */
     int fahr, lower, upper;
     double celsius;

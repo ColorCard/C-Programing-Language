@@ -1,10 +1,10 @@
-/* 【例4-1】使用格里高利公式求π的近似值，要求精确到最后一项的绝对值小于给定精度eps。*/
+/* 【例4-1】使用格里高利公式求π的近似值，要求精确到最后一项的绝对值小于给定精度eps */
 
 /*  用格里高利公式计算π的近似值，精度要求：最后一项的绝对值小于给定精度eps  */
 #include <stdio.h>
 #include <math.h>                /* 程序中调用绝对值函数 fabs()，需包含 math.h */
 
-int main(void) {
+int main() {
     int denominator, flag, i;
     double eps, item, pi;               /* pi 用于存放累加和 */
 
@@ -28,6 +28,7 @@ int main(void) {
 
     pi = pi + item;                  /* 加上最后一项的值 */
     pi = pi * 4;                     /* 循环计算的结果是 pi/4 */
+
     printf("pi = %.4f\n", pi);
     printf("i = %d\n", i);    /* 此处i的值为最后一项的项数 */
 

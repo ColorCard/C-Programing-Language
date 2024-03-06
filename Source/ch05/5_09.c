@@ -4,7 +4,7 @@
 
 double fact_s(int n);
 
-int main(void) {
+int main() {
     int i, n;
 
     printf("Input n:");

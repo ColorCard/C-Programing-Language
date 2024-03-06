@@ -1,11 +1,10 @@
-/*【例4-5-3】判断一个整数是否为素数。输入一个整数m，判断它是否为素数。素数就是只能被1和自身整除的正整数，1不是素数，2是素数。
-*/
+/*【例4-5-3】判断一个整数是否为素数。输入一个整数m，判断它是否为素数。素数就是只能被1和自身整除的正整数，1不是素数，2是素数 */
 
 /* 判断整数m是否为素数-3 */
 # include <stdio.h>
 # include <math.h>
 
-int main(void) {
+int main() {
     int i, is_prime, limit, m;  /* is_prime的值表示是否为素数 */
 
     printf("Enter a number: "); /* 输入提示 */
@@ -27,6 +26,7 @@ int main(void) {
             }
         }
     }
+
     /* 若循环正常结束，说明m不能被任何一个i整除，则is_prime的值为1不变 */
     if (is_prime == 1) {          /* m是素数 */
         printf("%d is a prime number!\n", m);

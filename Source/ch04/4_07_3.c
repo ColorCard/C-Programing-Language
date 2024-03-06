@@ -2,7 +2,7 @@
 
 /* 计算 1! + 2! + 3! + … + n! */
 # include <stdio.h>
-int main(void)
+int main()
 {
     int i, n;
     double item, sum;                  /* 变量 item 中存放阶乘的值 */

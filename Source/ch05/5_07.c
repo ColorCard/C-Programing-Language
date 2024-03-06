@@ -14,7 +14,7 @@ void complex_add(double real1, double imag1, double real2, double imag2);
 
 double result_real, result_imag;              /*  全局变量，用于存放函数结果  */
 
-int main(void) {
+int main() {
     double imag1, imag2, real1, real2;        /* 两个复数的实、虚部变量 */
 
     printf("Enter 1st complex number(real and imaginary): ");

@@ -8,7 +8,7 @@
 
 int prime(int m);
 
-int main(void) {
+int main() {
     int m;
 
     printf("Enter a number: ");    /* 输入提示 */

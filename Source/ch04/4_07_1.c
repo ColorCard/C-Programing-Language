@@ -1,10 +1,10 @@
-/*【例4-7-1】使用函数求阶乘和。计算1! + 2! + 3! + … + n!。要求定义和调用函数fact(n)计算n的阶乘，如果n是非负整数，则该函数返回n的阶乘，否则返回0。*/
+/*【例4-7-1】使用函数求阶乘和。计算1! + 2! + 3! + … + n!。要求定义和调用函数fact(n)计算n的阶乘，如果n是非负整数，则该函数返回n的阶乘，否则返回0 */
 
 /* 使用函数计算 1! + 2! + 3! + … + n! */
 # include <stdio.h>
 
 double fact(int n);                    /* 函数声明 */
-int main(void) {
+int main() {
     int i, n;
     double sum;
 
@@ -29,10 +29,12 @@ double fact(int n) {
     if (n < 0) {                /* 如果n为负整数，阶乘为0 */
         return 0;
     }
+
     result = 1;                    /* 置阶乘 result 的初值为1 */
-    for (i = 1; i <= n; i++) {    /* 循环执行n次，计算n! */
+
+    for (i = 1; i <= n; i++) {     /* 循环执行n次，计算n! */
         result = result * i;
     }
 
-    return result;             /* 把结果回送主函数 */
+    return result;                 /* 把结果回送主函数 */
 }

@@ -1,15 +1,16 @@
-/*【例3-10】输入一个正整数n，再输入n个字符，分别统计出其中空格或回车、数字字符和其他字符的个数。要求使用switch语句编写。*/
+/*【例3-10】输入一个正整数n，再输入n个字符，分别统计出其中空格或回车、数字字符和其他字符的个数。要求使用switch语句编写 */
 
 /* 统计字符，包括空格或回车、数字字符和其他字符 */
 # include <stdio.h>
 
-int main(void) {
+int main() {
     int blank, digit, i, n, other;    /* 定义3个变量分别存放统计结果 */
     char ch;
 
     blank = digit = other = 0;        /* 置存放统计结果的3个变量的初值为零 */
     printf("Enter n:");        /* 提示输入n */
     scanf("%d", &n);
+
     getchar();                            /* 读入并舍弃换行符 */
 
     printf("Enter %d characters:", n); /* 提示输入n个字符 */
@@ -39,6 +40,7 @@ int main(void) {
                 break;              /* 跳出switch语句 */
         }
     }
+
     printf("blank = %d, digit = %d, other = %d\n", blank, digit, other);
 
     return 0;
