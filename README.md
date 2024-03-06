@@ -21,10 +21,13 @@ typora-copy-images-to: ./img
 - Supplement：存放PPT、教学方案和PTA题目集
 
 
-- PTA：存放《C语言程序设计（第4版）》PTA平台上练习和习题对应的题解，均已测试通过
+- Primary：存放主教材《C语言程序设计（第4版）》课后习题，已在PTA平台上测试通过
 
 
-- Lab：存放《C语言程序设计实验与习题指导》PTA平台上对应的题解，均已测试通过
+- Lab：存放实验教材《C语言程序设计实验与习题指导》课程实验，已在PTA平台上测试通过
+
+
+- 实验调试源程序：存放实验教材上所需的调试程序
 
 
 ------
@@ -34,4 +37,6 @@ typora-copy-images-to: ./img
 ## 其他资源
 
 - 中国大学慕课MOOC(<a href="https://www.icourse163.org/course/ZJU-199001">程序设计入门</a>、<a href="https://www.icourse163.org/course/ZJU-200001">C语言程序设计进阶</a>)
+
+- <a href="https://pintia.cn/home">PTA(配套编程练习平台)</a>
 
