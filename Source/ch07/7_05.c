@@ -32,6 +32,7 @@ int main() {
     }
 
     printf("After sorted: ", n);         /* 输出n个数组元素的值 */
+
     for (i = 0; i < n; i++) {
         printf("%d ", a[i]);
     }

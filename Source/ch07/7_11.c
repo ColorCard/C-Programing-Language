@@ -10,16 +10,20 @@ int main() {
     char line[MAXN];
 
     /* 输入字符串 */
-    printf("Entera string: ");      /* 输入提示 */
+    printf("Enter a string: ");      /* 输入提示 */
+
     k = 0;
     while ((line[k] = getchar()) != '\n') {
         k++;
     }
+
+    // 添加上结尾符
     line[k] = '\0';
 
     /* 判断字符串line是否为回文 */
-    i = 0;               /* i是字符串首字符的下标 */
+    i = 0;                /* i是字符串首字符的下标 */
     k = k - 1;            /* k是字符串尾字符的下标 */
+
     /* i和k两个下标从字符串首尾两端同时向中间移动，逐对判断对应字符是否相等 */
     while (i < k) {
         if (line[i] != line[k]) {  /* 若对应字符不相等，则提前结束循环*/

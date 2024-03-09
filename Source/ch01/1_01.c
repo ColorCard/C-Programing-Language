@@ -13,7 +13,8 @@ int main()                            /* 主函数 */
     return 0;
 }
 
-int factorial(int n)                /* 定义计算 n! 的函数 */
+/* 定义计算 n! 的函数 */
+int factorial(int n)
 {
     int i, fact;
 

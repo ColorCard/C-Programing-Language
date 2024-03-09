@@ -26,6 +26,7 @@ int main() {
 
     printf("Enter year, month, day: ");
     scanf("%d%d%d", &year, &month, &day);
+
     printf("%d\n", day_of_year(year, month, day));
 
     return 0;

@@ -8,16 +8,20 @@ int main() {
     char ch;                               /* 定义一个字符变量ch */
 
     digit = letter = other = 0;            /* 置存放统计结果的三个变量的初值为零 */
+
     printf("Enter n:");             /* 提示输入n */
     scanf("%d", &n);
-    getchar();                             /* 第11行，读入并舍弃换行符 */
+
+    getchar();                             /* 读入并舍弃换行符以免被ch误读 */
 
     printf("Enter %d characters:", n);  /* 提示输入n个字符 */
 
     for (i = 1; i <= n; i++) {             /* 循环执行了n次 */
         ch = getchar();                    /* 从键盘输入一个字符，赋值给变量 ch */
+
+        /* 如果ch是英文字母，累加letter */
         if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
-            letter++;                    /* 如果ch是英文字母，累加letter */
+            letter++;
         } else if (ch >= '0' && ch <= '9') {
             digit++;                /* 如果ch是数字字符，累加digit */
         } else {

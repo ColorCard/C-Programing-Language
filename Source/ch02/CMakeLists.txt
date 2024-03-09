@@ -3,7 +3,7 @@ project(ch02 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(ch02 2_01.c)
+add_executable(201 2_01.c)
 add_executable(202 2_02.c)
 add_executable(203 2_03.c)
 add_executable(204 2_04.c)

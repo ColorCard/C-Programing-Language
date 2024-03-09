@@ -8,6 +8,7 @@ int main() {
     char ch;
 
     blank = digit = other = 0;        /* 置存放统计结果的3个变量的初值为零 */
+
     printf("Enter n:");        /* 提示输入n */
     scanf("%d", &n);
 
@@ -17,6 +18,7 @@ int main() {
 
     for (i = 1; i <= n; i++) {            /* 循环执行了n次 */
         ch = getchar();                   /* 输入一个字符 */
+
         /* 在switch语句中灵活应用break */
         switch (ch) {
             case ' ':            /* 语句段为空，请注意空格符的表示方式 */

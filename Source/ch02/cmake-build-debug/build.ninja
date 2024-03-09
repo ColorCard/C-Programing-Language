@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/data/ZJU_C/repo/Source/ch02/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ch02
+# Object build statements for EXECUTABLE target 201
 
 
 #############################################
-# Order-only phony target for ch02
+# Order-only phony target for 201
 
-build cmake_object_order_depends_target_ch02: phony || CMakeFiles/ch02.dir
+build cmake_object_order_depends_target_201: phony || CMakeFiles/201.dir
 
-build CMakeFiles/ch02.dir/2_01.c.obj: C_COMPILER__ch02_Debug D$:/data/ZJU_C/repo/Source/ch02/2_01.c || cmake_object_order_depends_target_ch02
-  DEP_FILE = CMakeFiles\ch02.dir\2_01.c.obj.d
+build CMakeFiles/201.dir/2_01.c.obj: C_COMPILER__201_Debug D$:/data/ZJU_C/repo/Source/ch02/2_01.c || cmake_object_order_depends_target_201
+  DEP_FILE = CMakeFiles\201.dir\2_01.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\ch02.dir
-  OBJECT_FILE_DIR = CMakeFiles\ch02.dir
+  OBJECT_DIR = CMakeFiles\201.dir
+  OBJECT_FILE_DIR = CMakeFiles\201.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ch02
+# Link build statements for EXECUTABLE target 201
 
 
 #############################################
-# Link the executable ch02.exe
+# Link the executable 201.exe
 
-build ch02.exe: C_EXECUTABLE_LINKER__ch02_Debug CMakeFiles/ch02.dir/2_01.c.obj
+build 201.exe: C_EXECUTABLE_LINKER__201_Debug CMakeFiles/201.dir/2_01.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ch02.dir
+  OBJECT_DIR = CMakeFiles\201.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ch02.exe
-  TARGET_IMPLIB = libch02.dll.a
-  TARGET_PDB = ch02.exe.dbg
+  TARGET_FILE = 201.exe
+  TARGET_IMPLIB = lib201.dll.a
+  TARGET_PDB = 201.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 202
@@ -429,6 +429,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 201: phony 201.exe
+
 build 202: phony 202.exe
 
 build 203: phony 203.exe
@@ -449,8 +451,6 @@ build 210: phony 210.exe
 
 build 211: phony 211.exe
 
-build ch02: phony ch02.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -459,7 +459,7 @@ build ch02: phony ch02.exe
 #############################################
 # Folder: D:/data/ZJU_C/repo/Source/ch02/cmake-build-debug
 
-build all: phony ch02.exe 202.exe 203.exe 204.exe 205.exe 206.exe 207.exe 208.exe 209.exe 210.exe 211.exe
+build all: phony 201.exe 202.exe 203.exe 204.exe 205.exe 206.exe 207.exe 208.exe 209.exe 210.exe 211.exe
 
 # =============================================================================
 # Built-in targets

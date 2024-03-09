@@ -8,8 +8,9 @@ int main() {
     int flag, money, n1, n2, n5;   /* n1, n2, n5分别表示1分、2分和5分硬币的数量*/
 
     flag = 1;                      /* flag表示是否找到满足条件的解并中止嵌套循环 */
-    printf("Enter money: ");    /* 输入提示 */
 
+    /* 输入提示 */
+    printf("Enter money: ");
     scanf("%d", &money);
 
     for (n5 = money / 5; (n5 >= 0) && (flag == 1); n5--) {
