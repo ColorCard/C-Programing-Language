@@ -36,11 +36,18 @@ typora-copy-images-to: ./img
 ## 关键程序
 
 - 第三章：<a href="Source/ch03/3_07.c">统计字符-1</a>、<a href="Source/ch03/3_10.c">统计字符-2</a>
+
 - 第四章：<a href="Source/ch04/4_01.c">估算PI值</a>、<a href="Source/ch04/4_03.c">统计整数位数</a>、<a href="Source/ch04/4_04.c">逆序输出整数</a>、<a href="Source/ch04/4_05_3.c">素数判断</a>、<a href="Source/ch04/4_09.c">斐波那契数列</a>、<a href="Source/ch04/4_11_2.c">搬砖问题</a>、<a href="Source/ch04/4_12.c">找零问题</a>
+
 - 第五章：<a href="Source/ch05/5_02.c">五边形面积</a>、<a href="Source/ch05/5_03.c">判断完全平方数</a>、<a href="Source/ch05/5_04.c">最小公倍数</a>、<a href="Source/ch05/5_06.c">数字金字塔</a>、<a href="Source/ch05/5_07.c">复数运算</a>、<a href="Source/ch05/5_09.c">静态变量</a>
+
 - 第六章：<a href="Source/ch06/6_01.c">大小写字母转换</a>、<a href="Source/ch06/6_05.c">统计单词个数</a>
+
 - 第七章：<a href="Source/ch07/7_02.c">数组计算斐波那契数列</a>、<a href="Source/ch07/7_05.c">选择排序</a>、<a href="Source/ch07/7_07_02.c">二分查找</a>、<a href="Source/ch07/7_09.c">求矩阵最值</a>、<a href="Source/ch07/7_09.c">转置矩阵</a>、<a href="Source/ch07/7_10.c">计算日期</a>、<a href="Source/ch07/7_11.c">判断回文</a>、<a href="Source/ch07/7_12.c">凯撒密码</a>、<a href="Source/ch07/7_13.c">字符过滤</a>、<a href="Source/ch07/7_14.c">16进制->10进制</a>
+
 - 第八章：<a href="Source/ch08/8_04.c">日期计算</a>、<a href="Source/ch08/8_05.c">冒泡排序</a>、<a href="Source/ch08/8_08.c">字符串压缩</a>、<a href="Source/ch08/8_10.c">动态内存分配</a>
+
+- 第九章：<a href="Source/ch09/9_02.c">学生成绩排序</a>
 
 ------
 
