@@ -49,6 +49,8 @@ typora-copy-images-to: ./img
 
 - 第九章：<a href="Source/ch09/9_02.c">学生成绩排序</a>
 
+- 第十章：<a href="Source/ch10/10_01.c">有序表的增删查操作</a>、<a href="Source/ch10/10_03.c">递归法求最大公约数</a>、<a href="Source/ch10/10_04_3.c">递归实现整数逆序输出</a>、<a href="Source/ch10/10_05.c">汉诺塔</a>、<a href="Source/ch10/10_06.c">金块问题</a>
+
 ------
 
 
