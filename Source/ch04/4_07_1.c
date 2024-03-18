@@ -1,19 +1,24 @@
-/*【例4-7-1】使用函数求阶乘和。计算1! + 2! + 3! + … + n!。要求定义和调用函数fact(n)计算n的阶乘，如果n是非负整数，则该函数返回n的阶乘，否则返回0 */
+/*【例4-7-1】使用函数求阶乘和。计算1! + 2! + 3! + … + n!。
+ * 要求定义和调用函数fact(n)计算n的阶乘，如果n是非负整数，则该函数返回n的阶乘，否则返回0 */
 
 /* 使用函数计算 1! + 2! + 3! + … + n! */
 # include <stdio.h>
 
-double fact(int n);                    /* 函数声明 */
+/* 函数声明 */
+double fact(int n);
+
 int main() {
     int i, n;
     double sum;
 
-    printf("Enter n: ");        /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter n: ");
     scanf("%d", &n);
 
     sum = 0;
     for (i = 1; i <= n; i++) {
-        sum = sum + fact(i);    /* 调用fact(i)求i!，共重复n次 */
+        /* 调用fact(i)求i!，共重复n次 */
+        sum = sum + fact(i);
     }
 
     printf("1! + 2! + ... + %d! = %.0f\n", n, sum);

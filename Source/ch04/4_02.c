@@ -11,17 +11,23 @@ int main() {
     total = 0;
     count = 0;
 
-    printf("Enter scores: ");         /* 输入提示 */
-    scanf("%lf", &score);             /* 输入第一个数据，%lf中的l是字母 */
+    /* 输入提示 */
+    printf("Enter scores: ");
+
+    /* 输入第一个数据，%lf中的l是字母 */
+    scanf("%lf", &score);
 
     /* 当输入数据score大于等于0时，执行循环 */
     while (score >= 0) {
         total = total + score;    /* 累加成绩 */
         num++;                    /* 计数 */
+
         if (score < 60) {
             count++;
         }
-        scanf("%lf", &score);    /* 读入一个新数据，为下次循环做准备 */
+
+        /* 读入一个新数据，为下次循环做准备 */
+        scanf("%lf", &score);
     }
 
     if (num != 0) {

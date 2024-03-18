@@ -4,19 +4,26 @@
 #include <stdio.h>
 
 int main() {
-    int mark, max;                         /* max中放最高分 */
+    /* max中放最高分 */
+    int mark, max;
 
-    printf("Enter marks:");             /* 输入提示 */
-    scanf("%d", &mark);                 /* 读入第一个成绩 */
+    /* 输入提示 */
+    printf("Enter marks:");
 
-    max = mark;                                /* 假设第一个成绩是最高分 */
+    /* 读入第一个成绩 */
+    scanf("%d", &mark);
+
+    /* 假设第一个成绩是最高分 */
+    max = mark;
 
     /*  当输入的成绩 mark 大于等于0时，执行循环 */
     while (mark >= 0) {
         if (max < mark) {                 /* 如果读入的成绩比最高分高 */
             max = mark;                   /* 再假设该成绩为最高分 */
         }
-        scanf("%d", &mark);             /* 读入下一个成绩 */
+
+        /* 读入下一个成绩 */
+        scanf("%d", &mark);
     };
 
     printf("Max = %d\n", max);

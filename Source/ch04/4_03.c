@@ -4,11 +4,13 @@
 # include <stdio.h>
 
 int main() {
-    int count, number, t_number;        /* count 记录整数number的位数 */
+    /* count记录整数number的位数 */
+    int count, number, t_number;
 
     count = 0;
 
-    printf("Enter a number:");   /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter a number:");
     scanf("%d", &number);
 
     t_number = number;                  /* 保护输入数据number的值不被改变 */

@@ -7,7 +7,8 @@
 int main() {
     int children, cnt, men, n, women;
 
-    printf("Enter n: ");            /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter n: ");
     scanf("%d", &n);
 
     cnt = 0;

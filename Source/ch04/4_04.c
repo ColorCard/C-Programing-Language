@@ -6,7 +6,8 @@
 int main() {
     int number;
 
-    printf("Enter a number: ");           /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter a number: ");
     scanf("%d", &number);
 
     do {

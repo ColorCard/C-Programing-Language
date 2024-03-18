@@ -6,9 +6,11 @@
 # include <math.h>
 
 int main() {
-    int i, is_prime, limit, m;         /* is_prime的值表示是否为素数 */
+    /* is_prime的值表示是否为素数 */
+    int i, is_prime, limit, m;
 
-    printf("Enter a number: "); /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter a number: ");
     scanf("%d", &m);
 
     if (m <= 1) {               /* 小于等于1的数不是素数，is_prime置为0*/
@@ -18,7 +20,8 @@ int main() {
     } else {                    /* 其他情况先假设是素数，is_prime初值置为1 */
         is_prime = 1;
         limit = sqrt(m) + 1;
-        for (i = 2; i <= limit; i++) { /* 第21行 */
+
+        for (i = 2; i <= limit; i++) {
             if (m % i == 0) {
                 is_prime = 0;       /* 若m能被某个i整除，则m不是素数，is_prime置为0 */
                 break;              /* 提前结束循环 */

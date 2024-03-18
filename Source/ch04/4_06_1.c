@@ -9,12 +9,15 @@
 int main() {
     int count = 0, flag, mynumber, yournumber;
 
-    srand(time(0));              /* 设定随机数的产生与系统时钟关联 */
+    /* 设定随机数的产生与系统时钟关联 */
+    srand(time(0));
     mynumber = rand() % 100 + 1;             /* 计算机随机产生一个1~100之间的被猜数 */
     flag = 0;                                /* flag的值为0表示没猜中，为1表示猜中了*/
 
-    while (count < 7) {                      /* 最多能猜7次 */
-        printf("Enter your number: ");    /* 提示输入你所猜的整数 */
+    /* 最多能猜7次 */
+    while (count < 7) {
+        /* 提示输入你所猜的整数 */
+        printf("Enter your number: ");
         scanf("%d", &yournumber);
 
         count++;
@@ -30,7 +33,8 @@ int main() {
         }
     }
 
-    if (flag == 0) {                        /* 超过7次还没猜中，提示游戏结束 */
+    /* 超过7次还没猜中，提示游戏结束 */
+    if (flag == 0) {
         printf("Game Over!\n");
     }
 

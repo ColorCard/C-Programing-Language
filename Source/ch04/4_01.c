@@ -2,13 +2,18 @@
 
 /*  用格里高利公式计算π的近似值，精度要求：最后一项的绝对值小于给定精度eps  */
 #include <stdio.h>
-#include <math.h>                /* 程序中调用绝对值函数 fabs()，需包含 math.h */
+
+/* 程序中调用绝对值函数 fabs()，需包含 math.h */
+#include <math.h>
 
 int main() {
     int denominator, flag, i;
-    double eps, item, pi;               /* pi 用于存放累加和 */
 
-    printf("Enter eps:");        /* 提示输入精度eps */
+    /* pi 用于存放累加和 */
+    double eps, item, pi;
+
+    /* 提示输入精度eps */
+    printf("Enter eps:");
     scanf("%lf", &eps);
 
     /* 循环初始化 */
@@ -18,7 +23,8 @@ int main() {
     item = 1.0;                  /* item 中存放第 i 项的值，初值取第1项的值 */
     pi = 0;                      /* 置累加和 pi 的初值为0 */
 
-    while (fabs(item) >= eps) {         /* 当|item| ≥ eps时，执行循环 */
+    /* 当|item| ≥ eps时，执行循环 */
+    while (fabs(item) >= eps) {
         pi = pi + item;                    /* 累加第 i 项的值 */
         i++;                               /* 项数增1，为下一次循环做准备 */
         flag = -flag;                      /* 改变符号，为下一次循环做准备 */
@@ -30,7 +36,9 @@ int main() {
     pi = pi * 4;                     /* 循环计算的结果是 pi/4 */
 
     printf("pi = %.4f\n", pi);
-    printf("i = %d\n", i);    /* 此处i的值为最后一项的项数 */
+
+    /* 此处i的值为最后一项的项数 */
+    printf("i = %d\n", i);
 
     return 0;
 }

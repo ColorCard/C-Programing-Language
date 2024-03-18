@@ -8,7 +8,8 @@
 int main() {
     int i, limit, m;
 
-    printf("Enter a number: ");    /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter a number: ");
     scanf("%d", &m);
 
     if (m <= 1) {                   /* 小于等于1的数不是素数 */
@@ -17,16 +18,18 @@ int main() {
         printf("%d is a prime number!\n", m);
     } else {                        /* 其他情况：大于2的正整数 */
         limit = sqrt(m) + 1;
-        for (i = 2; i <= limit; i++) {    /* 第16行 */
+
+        for (i = 2; i <= limit; i++) {
             if (m % i == 0) {
-                break;                /* 若m能被某个i整除，则m不是素数，提前结束循环 */
+                break;              /* 若m能被某个i整除，则m不是素数，提前结束循环 */
             }
         }
+
         if (i > limit) {            /* 若循环正常结束，说明m不能被任何一个i整除 */
             printf("%d is a prime number!\n", m);
         } else {                    /* m不是素数 */
             printf("No!\n");
-        }                            /* 第25行 */
+        }
     }
 
     return 0;

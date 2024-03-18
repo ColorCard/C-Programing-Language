@@ -3,15 +3,21 @@
 
 /* 使用嵌套循环求m到n之间的全部素数 */
 #include <stdio.h>
-#include <math.h>                /* 调用求平方根函数，需要包含数学库 */
+
+/* 调用求平方根函数，需要包含数学库 */
+#include <math.h>
 
 int main() {
-    int count, i, k, flag, limit, m, n;   /* flag的值为1表示是素数，为0表示不是素数 */
+    /* flag的值为1表示是素数，为0表示不是素数 */
+    int count, i, k, flag, limit, m, n;
 
-    printf("Enter m n: ");        /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter m n: ");
     scanf("%d%d", &m, &n);
 
-    count = 0;                           /* count记录素数的个数，用于控制输出格式 */
+    /* count记录素数的个数，用于控制输出格式 */
+    count = 0;
+
     if (m < 1 || n > 500 || m > n) {
         printf("Invalid.\n");
     } else {
@@ -23,6 +29,7 @@ int main() {
             } else {                     /* 其他情况：大于2的正整数 */
                 flag = 1;                /* 先假设k是素数 */
                 limit = sqrt(k) + 1;
+
                 for (i = 2; i <= limit; i++) {
                     if (k % i == 0) {          /* 若k能被某个i整除，则k不是素数 */
                         flag = 0;              /* 置flag为 0 */
@@ -32,7 +39,8 @@ int main() {
             }
 
             if (flag == 1) {                /* 如果k是素数 */
-                printf("%6d", k);    /* 输出k */
+                /* 输出k */
+                printf("%6d", k);
                 count++;                    /* 累加已经输出的素数个数 */
                 if (count % 10 == 0) {      /* 如果count是10的倍数，换行 */
                     printf("\n");

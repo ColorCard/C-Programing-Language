@@ -7,7 +7,8 @@
 int main() {
     int children, cnt, limit_m, limit_w, men, n, women;
 
-    printf("Enter n: ");            /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter n: ");
     scanf("%d", &n);
 
     limit_m = n / 3;

@@ -9,13 +9,17 @@
 int main() {
     int count = 0, flag, mynumber, yournumber;
 
-    printf("Enter my number: "); /* 提示输入要猜的整数 */
+    /* 提示输入要猜的整数 */
+    printf("Enter my number: ");
     scanf("%d", &mynumber);
 
-    flag = 0;                       /* flag的值为0表示没猜中，为1表示猜中了*/
+    /* flag的值为0表示没猜中，为1表示猜中了*/
+    flag = 0;
 
-    while (count < 7) {             /* 最多能猜7次 */
-        printf("Enter your number: "); /* 提示输入你所猜的整数 */
+    /* 最多能猜7次 */
+    while (count < 7) {
+        /* 提示输入你所猜的整数 */
+        printf("Enter your number: ");
         scanf("%d", &yournumber);
 
         count++;
@@ -31,7 +35,7 @@ int main() {
         }
     }
 
-    if (flag == 0) {                        /* 超过7次还没猜中，提示游戏结束 */
+    if (flag == 0) {                          /* 超过7次还没猜中，提示游戏结束 */
         printf("Game Over!\n");
     }
 

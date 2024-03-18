@@ -5,9 +5,12 @@
 
 int main() {
     int i, j, n;
-    double item, sum;                      /* 变量 item 中存放阶乘的值 */
 
-    printf("Enter n: ");            /* 输入提示 */
+    /* 变量 item 中存放阶乘的值 */
+    double item, sum;
+
+    /* 输入提示 */
+    printf("Enter n: ");
     scanf("%d", &n);
 
     sum = 0;
