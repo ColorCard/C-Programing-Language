@@ -8,19 +8,23 @@ int main() {
     /* 定义一个字符变量ch */
     char ch;
 
-    printf("Input characters: ");         /* 输入提示 */
-    ch = getchar();                              /* 输入一个字符，赋给变量 ch */
+    /* 输入提示 */
+    printf("Input characters: ");
+
+    /* 输入一个字符，赋给变量 ch */
+    ch = getchar();
 
     /* 比较ch和 '\n'，当输入的字符不是回车时，继续循环；遇回车，则循环结束 */
     while (ch != '\n') {
-        if (ch >= 'A' && ch <= 'Z') {        /* 如果ch是大写字母 */
-            ch = ch - 'A' + 'a';             /* 大写字母转换为小写字母 */
+        if (ch >= 'A' && ch <= 'Z') {           /* 如果ch是大写字母 */
+            ch = ch - 'A' + 'a';                /* 大写字母转换为小写字母 */
 
         } else if (ch >= 'a' && ch <= 'z') {    /* 如果ch是小写字母 */
             ch = ch - 'a' + 'A';                /* 小写字母转换为大写字母 */
         }
 
         putchar(ch);                            /* 输出转换后的字符 */
+
         ch = getchar();                         /* 读入下一个字符 */
     }
 

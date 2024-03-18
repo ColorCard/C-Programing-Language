@@ -10,7 +10,9 @@ int main() {
     char ch;
 
     word = cnt = 0;                         /* word的初值为0，表示还没有遇到新单词*/
-    printf("Input characters: ");    /* 输入提示 */
+
+    /* 输入提示 */
+    printf("Input characters: ");
 
     while ((ch = getchar()) != '\n') {
         if (ch == ' ') {                    /* 读入空格，表示不是单词 */
