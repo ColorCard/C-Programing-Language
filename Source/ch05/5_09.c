@@ -11,7 +11,8 @@ int main() {
     scanf("%d", &n);
 
     for (i = 1; i <= n; i++) {
-        printf("%3d!=%.0f\n", i, fact_s(i));    /* 输出i和i! */
+        /* 输出i和i! */
+        printf("%3d!=%.0f\n", i, fact_s(i));
     }
 
     return 0;

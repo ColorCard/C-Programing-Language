@@ -12,10 +12,12 @@ void complex_prod(double real1, double imag1, double real2, double imag2);
 
 void complex_add(double real1, double imag1, double real2, double imag2);
 
-double result_real, result_imag;              /*  全局变量，用于存放函数结果  */
+/*  全局变量，用于存放函数结果 */
+double result_real, result_imag;
 
 int main() {
-    double imag1, imag2, real1, real2;        /* 两个复数的实、虚部变量 */
+    /* 两个复数的实、虚部变量 */
+    double imag1, imag2, real1, real2;
 
     printf("Enter 1st complex number(real and imaginary): ");
     scanf("%lf%lf", &real1, &imag1);            /* 输入第一个复数 */

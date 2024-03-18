@@ -9,11 +9,17 @@ double cylinder(double r, double h);
 int main() {
     double height, radius, volume;
 
-    printf("Enter radius and height: ");          /* 输入提示 */
-    scanf("%lf%lf", &radius, &height);            /* 输入圆柱的半径和高度 */
+    /* 输入提示 */
+    printf("Enter radius and height: ");
 
-    volume = cylinder(radius, height);             /* 调用函数，返回值赋给volume */
-    printf("Volume = %.3f\n", volume);            /* 输出圆柱的体积 */
+    /* 输入圆柱的半径和高度 */
+    scanf("%lf%lf", &radius, &height);
+
+    /* 调用函数，返回值赋给volume */
+    volume = cylinder(radius, height);
+
+    /* 输出圆柱的体积 */
+    printf("Volume = %.3f\n", volume);
 
     return 0;
 }

@@ -5,11 +5,11 @@
 # include <stdio.h>
 # include <math.h>
 
+/* 函数声明 */
+double area(double x, double y, double z);
+
 int main() {
     double a1, a2, a3, a4, a5, a6, a7, s;
-
-    /* 函数声明 */
-    double area(double x, double y, double z);
 
     printf("Please input 7 side lengths in the order a1 to a7:\n");
     scanf("%lf%lf%lf%lf%lf%lf%lf", &a1, &a2, &a3, &a4, &a5, &a6, &a7);
@@ -22,9 +22,9 @@ int main() {
 }
 
 /* 使用海伦-秦九韶公式计算三角形面积的函数 */
-double area(double x, double y, double z)        /* 函数首部 */
-{
-    double p = (x + y + z) / 2;                  // 半周长
+double area(double x, double y, double z) {
+    // 半周长
+    double p = (x + y + z) / 2;
 
     return sqrt(p * (p - x) * (p - y) * (p - z));
 }

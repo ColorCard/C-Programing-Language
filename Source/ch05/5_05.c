@@ -12,10 +12,11 @@ int prime(int m);
 int main() {
     int m;
 
-    printf("Enter a number: ");    /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter a number: ");
     scanf("%d", &m);
 
-    if (prime(m) != 0) {                /* m不是素数 */
+    if (prime(m) != 0) {                /* m是素数 */
         printf("%d is a prime number!\n", m);
     } else {                            /* m不是素数 */
         printf("No!\n");

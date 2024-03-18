@@ -5,7 +5,8 @@
 
 #include <stdio.h>
 
-int gcd(int x, int y);              /* 定义求最大公约数函数gcd() */
+/* 定义求最大公约数函数gcd() */
+int gcd(int x, int y);
 
 int main() {
     int x, y;

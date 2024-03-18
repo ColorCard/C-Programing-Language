@@ -28,8 +28,9 @@ void pyramid(int n)
             printf(" ");
         }
 
-        for (j = 1; j <= i; j++) {        /* 输出每行的数字 */
-            printf("%d ", i);      /* %d后面有1个空格 */
+        for (j = 1; j <= i; j++) {            /* 输出每行的数字 */
+            /* %d后面有1个空格 */
+            printf("%d ", i);
         }
 
         putchar('\n');

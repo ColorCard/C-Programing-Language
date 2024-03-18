@@ -7,7 +7,8 @@
 /* 函数声明  */
 void income(double number), expend(double number);
 
-double cash;                                /* 定义全局变量，保存现金余额 */
+/* 定义全局变量，保存现金余额 */
+double cash;
 
 int main() {
     int choice;
@@ -18,21 +19,25 @@ int main() {
 
     scanf("%d", &choice);                 /* 输入操作类型 */
 
-    while (choice != 0) {                        /*  若输入类型为0，循环结束  */
+    while (choice != 0) {                        /* 若输入类型为0，循环结束  */
         if (choice == 1 || choice == 2) {
-            printf("Enter cash value:");  /* 输入操作现金额 */
+            /* 输入操作现金额 */
+            printf("Enter cash value:");
             scanf("%lf", &value);
+
             if (choice == 1) {
-                income(value);                /* 函数调用，计算现金收入 */
+                income(value);               /* 函数调用，计算现金收入 */
             } else {
-                expend(value);                /* 函数调用，计算现金支出 */
+                expend(value);               /* 函数调用，计算现金支出 */
             }
 
             printf("current cash:%.2f\n", cash);
         }
 
         printf("Enter operate choice(0--end, 1--income, 2--expend):");
-        scanf("%d", &choice);                 /* 继续输入操作类型 */
+
+        /* 继续输入操作类型 */
+        scanf("%d", &choice);
     }
 
     return 0;

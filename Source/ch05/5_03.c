@@ -21,7 +21,7 @@ int main() {
 }
 
 /* 判断完全平方数的函数 */
-int IsSquare(int n)                /* 函数首部 */
+int IsSquare(int n)
 {
     int i;
 
