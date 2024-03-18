@@ -8,11 +8,14 @@ int main() {
     double average, sum;          /* average存放平均值，sum保存数据之和 */
     int a[10];                    /* 定义1个数组a，它有10个整型元素 */
 
-    printf("Enter n: ");                    /* 提示输入n */
+    /* 提示输入n */
+    printf("Enter n: ");
     scanf("%d", &n);
 
     if (n >= 1 && n <= 10) {
-        printf("Enter %d integers: ", n);   /* 提示输入n个数 */
+
+        /* 提示输入n个数 */
+        printf("Enter %d integers: ", n);
 
         /* 将输入数依次赋给数组a的前n个元素a[0]～a[n-1]（如图7.1所示） */
         for (i = 0; i < n; i++) {
@@ -40,7 +43,8 @@ int main() {
         }
         printf("\n");
     } else {
-        printf("Invalid Value.\n");        /* 输出错误提示 */
+        /* 输出错误提示 */
+        printf("Invalid Value.\n");
     }
 
     return 0;

@@ -5,23 +5,30 @@
 /* 投票情况统计 */
 # include<stdio.h>
 
-# define MAXN 8                    /* 定义符号常量MAXN */
+/* 定义符号常量MAXN */
+# define MAXN 8
 
 int main() {
     int i, n, response;
-    int count[MAXN + 1];                      /*数组下标对应栏目编号，不使用count[0] */
 
-    printf("Enter n: ");               /* 提示输入n */
+    /* 数组下标对应栏目编号，不使用count[0] */
+    int count[MAXN + 1];
+
+    /* 提示输入n */
+    printf("Enter n: ");
     scanf("%d", &n);
 
     for (i = 1; i <= MAXN; i++) {
-        count[i] = 0;                         /* 各栏目计数器清0 */
+        /* 各栏目计数器清0 */
+        count[i] = 0;
     }
 
     /* 输入并统计投票数据 */
     for (i = 1; i <= n; i++) {
-        printf("Enter your response: ");         /* 输入提示 */
+        /* 输入提示 */
+        printf("Enter your response: ");
         scanf("%d", &response);
+
         if (response >= 1 && response <= MAXN) {        /* 检查投票是否有效*/
             count[response]++;                          /* 对应栏目得票加1 */
         } else {
@@ -29,8 +36,9 @@ int main() {
         }
     }
 
-    /* 输出得票数不为零的栏目得票情况 */
     printf("result:\n");
+
+    /* 输出得票数不为零的栏目得票情况 */
     for (i = 1; i <= MAXN; i++) {
         if (count[i] != 0) {
             printf("%4d%4d\n", i, count[i]);

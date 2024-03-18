@@ -8,9 +8,13 @@
 
 int main() {
     int i, n;
-    int fib[MAXN] = {1, 1};            /* 数组初始化，生成斐波那契数列前两个数 */
 
-    printf("Enter n: ");                /* 提示输入n */
+    /* 数组初始化，生成斐波那契数列前两个数 */
+    int fib[MAXN] = {1, 1};
+
+
+    /* 提示输入n */
+    printf("Enter n: ");
     scanf("%d", &n);
 
     if (n >= 1 && n <= 46) {
@@ -22,7 +26,9 @@ int main() {
         /* 输出斐波那契数列 */
         for (i = 0; i < n; i++) {
             printf("%11d", fib[i]);
-            if ((i + 1) % 5 == 0) {           /* 每输出5个数就换行 */
+
+            /* 每输出5个数就换行(因为i从0开始，当i为4时已经输出了5个数，所以加1) */
+            if ((i + 1) % 5 == 0) {
                 printf("\n");
             }
         }
@@ -32,7 +38,8 @@ int main() {
             printf("\n");
         }
     } else {
-        printf("Invalid Value.\n");    /* 输出错误提示 */
+        /* 输出错误提示 */
+        printf("Invalid Value.\n");
     }
 
     return 0;

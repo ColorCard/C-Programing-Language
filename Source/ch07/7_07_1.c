@@ -6,28 +6,35 @@
 
 int main() {
     int low, high, mid, n = 10, x;
-    int a[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};    /* 有序数组 */
 
-    printf("Enter x：");                    /* 提示输入x */
+    /* 有序数组 */
+    int a[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+    /* 提示输入x */
+    printf("Enter x：");
     scanf("%d", &x);
 
+    /* 开始时查找区间为整个数组 */
     low = 0;
-    high = n - 1;               /* 开始时查找区间为整个数组 */
+    high = n - 1;
 
     while (low <= high) {                /* 循环条件 */
         mid = (low + high) / 2;          /* 中间位置 */
+
         if (x == a[mid]) {
-            break;                    /* 查找成功，中止循环 */
+            break;                       /* 查找成功，中止循环 */
         } else if (x < a[mid]) {
-            high = mid - 1;            /* 前半段，high前移 */
+            high = mid - 1;              /* 前半段，high前移 */
         } else {
-            low = mid + 1;            /* 后半段，low后移 */
+            low = mid + 1;               /* 后半段，low后移 */
         }
     }
 
-    if (low <= high) {                          /* 找到，输出下标 */
+    if (low <= high) {
+        /* 找到，输出下标 */
         printf("Index is %d \n", mid);
-    } else {                                    /* x不在数组a中 */
+    } else {
+        /* x不在数组a中 */
         printf("Not Found\n");
     }
 

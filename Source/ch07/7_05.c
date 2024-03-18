@@ -3,16 +3,20 @@
 /* 选择法排序 */
 # include <stdio.h>
 
-# define MAXN 10                    /* 定义符号常量MAXN */
+/* 定义符号常量MAXN */
+# define MAXN 10
 
 int main() {
     int i, index, k, n, temp;
     int a[MAXN];
 
-    printf("Enter n: ");                 /* 提示输入n */
+    /* 提示输入n */
+    printf("Enter n: ");
     scanf("%d", &n);
 
-    printf("Enter %d integers: ", n);    /* 提示输入n 个数 */
+    /* 提示输入n个数 */
+    printf("Enter %d integers: ", n);
+
     for (i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
@@ -26,13 +30,15 @@ int main() {
             }
         }
 
-        temp = a[index];                        /* 最小元素与下标为k的元素交换 */
+        /* 最小元素与下标为k的元素交换 */
+        temp = a[index];
         a[index] = a[k];
         a[k] = temp;
     }
 
-    printf("After sorted: ", n);         /* 输出n个数组元素的值 */
+    printf("After sorted: ", n);
 
+    /* 输出n个数组元素的值 */
     for (i = 0; i < n; i++) {
         printf("%d ", a[i]);
     }

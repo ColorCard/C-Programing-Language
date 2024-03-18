@@ -10,24 +10,31 @@ int main() {
     int col, i, j, m, n, row;
     int a[MAXM][MAXN];
 
-    printf("Enter m, n: ");                /* 提示输入m和n */
+    /* 提示输入m和n */
+    printf("Enter m, n: ");
     scanf("%d %d", &m, &n);
 
-    /* 将输入的数存入二维数组 */
-    printf("Enter %d integers: \n", m * n);    /* 提示输入m*n个数 */
 
+    /* 提示输入m*n个数 */
+    printf("Enter %d integers: \n", m * n);
+
+    /* 将输入的数存入二维数组 */
     for (i = 0; i < m; i++) {                         /* 行下标是外循环的循环变量 */
         for (j = 0; j < n; j++) {                     /* 列下标是内循环的循环变量 */
             scanf("%d", &a[i][j]);             /* 输入数组元素 */
         }
     }
 
+    /* 先假设 a[0][0] 是最大值 */
+    row = col = 0;
+
     /* 遍历二维数组，找出最大值 a[row][col] */
-    row = col = 0;                      /* 先假设 a[0][0] 是最大值 */
     for (i = 0; i < m; i++) {
         for (j = 0; j < n; j++) {
-            if (a[i][j] > a[row][col]) {    /* 如果 a[i][j] 比假设值大 */
-                row = i;                  /* 再假设 a[i][j] 是新的最大值 */
+            /* 如果 a[i][j] 比假设值大 */
+            if (a[i][j] > a[row][col]) {
+                /* 再假设 a[i][j] 是新的最大值 */
+                row = i;
                 col = j;
             }
         }

@@ -10,25 +10,33 @@ int main() {
     int i, flag, n, x;
     int a[MAXN];
 
-    printf("Enter n, x: ");                 /* 提示输入n和x */
+    /* 提示输入n和x */
+    printf("Enter n, x: ");
     scanf("%d%d", &n, &x);
 
-    printf("Enter %d integers: ", n);       /* 提示输入n个数 */
+    /* 提示输入n个数 */
+    printf("Enter %d integers: ", n);
     for (i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
 
-    /* 在数组a中查找x */
-    flag = 0;                                 /* 先假设x不在数组a中，置flag为0 */
+    /* 先假设x不在数组a中，置flag为0 */
+    flag = 0;
 
     for (i = 0; i < n; i++) {
-        if (a[i] == x) {                           /* 如果在数组a中找到了x */
-            printf("Index is %d\n", i);     /* 输出相应的下标 */
-            flag = 1;                              /* 置flag为1，说明在数组a中找到了x */
+        /* 如果在数组a中找到了x */
+        if (a[i] == x) {
+
+            /* 输出相应的下标 */
+            printf("Index is %d\n", i);
+
+            /* 置flag为1，说明在数组a中找到了x */
+            flag = 1;
         }
     }
 
-    if (flag == 0) {                               /* 如果flag为0，说明x不在a中 */
+    /* 如果flag为0，说明x不在a中 */
+    if (flag == 0) {
         printf("Not Found\n");
     }
 

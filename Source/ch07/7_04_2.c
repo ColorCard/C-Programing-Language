@@ -5,15 +5,19 @@
 /* 将数组的最小值与第一个数交换 */
 # include <stdio.h>
 
-# define MAXN 10                    /* 定义符号常量MAXN */
+/* 定义符号常量MAXN */
+# define MAXN 10
 
 int main() {
     int i, index, n;
     int a[MAXN];
 
-    printf("Enter n: ");                 /* 提示输入n */
+    /* 提示输入n */
+    printf("Enter n: ");
     scanf("%d", &n);
-    printf("Enter %d integers: ", n);    /* 提示输入n 个数 */
+
+    /* 提示输入n 个数 */
+    printf("Enter %d integers: ", n);
 
     for (i = 0; i < n; i++) {
         scanf("%d", &a[i]);
@@ -21,6 +25,7 @@ int main() {
 
     /* 找最小值a[index] */
     index = 0;                    /* 假设a[0]是最小值，即下标为0的元素最小 */
+
     for (i = 1; i < n; i++) {
         if (a[i] < a[index]) {    /* 如果 a[i] 比假设的最小值还小 */
             index = i;            /* 再假设 a[i] 是新的最小值，即下标为 i 的元素最小 */
@@ -28,7 +33,7 @@ int main() {
     }
 
     /* 输出最小值和对应的下标 */
-    printf("min is %d\tsub is %d\n", a[index], index);   /* 第23行 */
+    printf("min is %d\tsub is %d\n", a[index], index);
 
     {
         int temp;                /* 在复合语句中定义变量temp*/

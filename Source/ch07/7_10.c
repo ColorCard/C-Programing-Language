@@ -3,9 +3,24 @@
 # include <stdio.h>
 
 /* 计算某个日期对应该年的第几天 */
+int day_of_year(int year, int month, int day);
+
+int main() {
+    int day, month, year;
+
+    printf("Enter year, month, day: ");
+    scanf("%d%d%d", &year, &month, &day);
+
+    printf("%d\n", day_of_year(year, month, day));
+
+    return 0;
+}
+
 int day_of_year(int year, int month, int day) {
     int k, leap;
-    int tab[2][13] = {                    /* 数组初始化，将每月的天数赋给数组 */
+
+    /* 数组初始化，将每月的天数赋给数组 */
+    int tab[2][13] = {
             {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},
             {0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
     };
@@ -19,15 +34,4 @@ int day_of_year(int year, int month, int day) {
     }
 
     return day;
-}
-
-int main() {
-    int day, month, year;
-
-    printf("Enter year, month, day: ");
-    scanf("%d%d%d", &year, &month, &day);
-
-    printf("%d\n", day_of_year(year, month, day));
-
-    return 0;
 }

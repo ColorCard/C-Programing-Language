@@ -4,16 +4,19 @@
 /* 二分查找法 */
 # include <stdio.h>
 
-# define MAXN 10                    /* 定义符号常量MAXN */
+/* 定义符号常量MAXN */
+# define MAXN 10
 
 int main() {
     int i, low, high, mid, n, sorted, x;
     int a[MAXN];
 
-    printf("Enter n: ");                 /* 提示输入n */
+    /* 提示输入n */
+    printf("Enter n: ");
     scanf("%d", &n);
 
-    printf("Enter %d integers: ", n);    /* 提示输入n个数 */
+    /* 提示输入n个数 */
+    printf("Enter %d integers: ", n);
 
     for (i = 0; i < n; i++) {
         scanf("%d", &a[i]);
@@ -30,14 +33,17 @@ int main() {
     if (sorted == 0) {
         printf("Invalid Value\n");
     } else {
-        printf("Enter x：");                /* 提示输入x */
+        /* 提示输入x */
+        printf("Enter x：");
         scanf("%d", &x);
 
+        /* 开始时查找区间为整个数组 */
         low = 0;
-        high = n - 1;                             /* 开始时查找区间为整个数组 */
+        high = n - 1;
 
         while (low <= high) {                /* 循环条件 */
             mid = (low + high) / 2;          /* 中间位置 */
+
             if (x == a[mid])
                 break;                       /* 查找成功，中止循环 */
             else if (x < a[mid])
@@ -46,9 +52,11 @@ int main() {
                 low = mid + 1;               /* 后半段，low后移 */
         }
 
-        if (low <= high) {                       /* 找到，输出下标 */
+        if (low <= high) {
+            /* 找到，输出下标 */
             printf("Index is %d \n", mid);
-        } else {                                 /* x不在数组a中 */
+        } else {
+            /* x不在数组a中 */
             printf("Not Found\n");
         }
     }
