@@ -51,6 +51,8 @@ typora-copy-images-to: ./img
 
 - 第十章：<a href="Source/ch10/10_01.c">有序表的增删查操作</a>、<a href="Source/ch10/10_03.c">递归法求最大公约数</a>、<a href="Source/ch10/10_04_3.c">递归实现整数逆序输出</a>、<a href="Source/ch10/10_05.c">汉诺塔</a>、<a href="Source/ch10/10_06.c">金块问题</a>
 
+- 第十一章：<a href="Source/ch11/11_04.c">字符串排序</a>、<a href="Source/ch11/11_05.c">藏头诗</a>、<a href="Source/ch11/11_06.c">随机发牌</a>、<a href="Source/ch11/11_08.c">字符定位</a>、<a href="Source/ch11/11_09.c">计算数值积分</a>、<a href="Source/ch11/11_10.c">链表</a>
+
 ------
 
 
