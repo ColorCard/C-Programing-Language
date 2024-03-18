@@ -1,9 +1,11 @@
 /*【例8-6】输入n个整数作为数组元素，分别使用数组和指针来计算并输出它们的和。*/
 /* 分别使用数组和指针计算数组元素之和 */
+
 #include <stdio.h>
 
 int main() {
-    int i, n, a[10], *p;            /* 定义数组和指针变量 */
+    /* 定义数组和指针变量 */
+    int i, n, a[10], *p;
     long sum = 0;
 
     printf("Enter n(n≤10): ");
@@ -15,8 +17,9 @@ int main() {
         scanf("%d", &a[i]);
     }
 
-    for (i = 0; i < n; i++) {        /* 使用数组求和 */
-        sum = sum + *(a + i);        /* 第15行 */
+    /* 使用数组求和 */
+    for (i = 0; i < n; i++) {
+        sum = sum + *(a + i);
     }
 
     printf("calculated by array, sum = %ld \n", sum);

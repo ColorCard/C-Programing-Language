@@ -16,7 +16,7 @@ int main() {
     scanf("%d", &a);                        /* 输入a */
     printf("a = %d, *p = %d\n", a, *p);
 
-    (*p)++;                                    /* 将指针所指向的变量加1  */
+    (*p)++;                                        /* 将指针所指向的变量加1  */
     printf("a = %d, *p = %d\n", a, *p);
 
     return 0;
