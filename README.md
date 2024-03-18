@@ -53,6 +53,8 @@ typora-copy-images-to: ./img
 
 - 第十一章：<a href="Source/ch11/11_04.c">字符串排序</a>、<a href="Source/ch11/11_05.c">藏头诗</a>、<a href="Source/ch11/11_06.c">随机发牌</a>、<a href="Source/ch11/11_08.c">字符定位</a>、<a href="Source/ch11/11_09.c">计算数值积分</a>、<a href="Source/ch11/11_10.c">链表</a>
 
+- 第十二章：<a href="Source/ch12/12_02.c">用户信息加密</a>、<a href="Source/ch12/12_04.c">用户合法性校验</a>
+
 ------
 
 
