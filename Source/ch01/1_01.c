@@ -1,21 +1,26 @@
 /*【例1-1】求阶乘问题: 输入一个正整数n, 输出n! */
 
-#include <stdio.h>                    /* 编译预处理命令 */
+/* 编译预处理命令 */
+#include <stdio.h>
+
+/* 函数声明 */
+int factorial(int n);
 
 int main()                            /* 主函数 */
 {
     int n;                            /* 变量定义 */
-    int factorial(int n);             /* 函数声明 */
 
-    scanf("%d", &n);                 /* 输入一个整数 */
-    printf("%d\n", factorial(n));    /* 调用函数计算阶乘 */
+    /* 输入一个整数 */
+    scanf("%d", &n);
+
+    /* 调用函数计算阶乘 */
+    printf("%d\n", factorial(n));
 
     return 0;
 }
 
 /* 定义计算 n! 的函数 */
-int factorial(int n)
-{
+int factorial(int n) {
     int i, fact;
 
     fact = 1;
