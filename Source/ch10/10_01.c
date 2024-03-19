@@ -26,6 +26,7 @@ int main() {
     if (input_array(a) == -1) {       /* 调用函数输入有序数组 a */
         return 0;
     }
+
     printf("[1] Insert\n");    /* 以下4行显示菜单*/
     printf("[2] Delete\n");
     printf("[3] Query\n");

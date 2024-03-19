@@ -26,7 +26,7 @@ typora-copy-images-to: ./img
 - <a href="Source">Source</a>：存放《C语言程序设计》（第4版）教材源码
 
 
-- <a href="Supplement">Supplement</a>：存放PPT、教学方案和PTA题目集
+- <a href="Supplement">Supplement</a>：存放PPT、教师用书和其他杂项(如教学方案和PTA题目集等)
 
 
 ------
@@ -43,7 +43,7 @@ typora-copy-images-to: ./img
 
 - 第六章：<a href="Source/ch06/6_01.c">大小写字母转换</a>、<a href="Source/ch06/6_05.c">统计单词个数</a>
 
-- 第七章：<a href="Source/ch07/7_02.c">数组计算斐波那契数列</a>、<a href="Source/ch07/7_05.c">选择排序</a>、<a href="Source/ch07/7_07_02.c">二分查找</a>、<a href="Source/ch07/7_09.c">求矩阵最值</a>、<a href="Source/ch07/7_09.c">转置矩阵</a>、<a href="Source/ch07/7_10.c">计算日期</a>、<a href="Source/ch07/7_11.c">判断回文</a>、<a href="Source/ch07/7_12.c">凯撒密码</a>、<a href="Source/ch07/7_13.c">字符过滤</a>、<a href="Source/ch07/7_14.c">16进制->10进制</a>
+- 第七章：<a href="Source/ch07/7_02.c">数组计算斐波那契数列</a>、<a href="Source/ch07/7_05.c">选择排序</a>、<a href="Source/ch07/7_07_2.c">二分查找</a>、<a href="Source/ch07/7_09.c">求矩阵最值</a>、<a href="Source/ch07/7_09.c">转置矩阵</a>、<a href="Source/ch07/7_10.c">计算日期</a>、<a href="Source/ch07/7_11.c">判断回文</a>、<a href="Source/ch07/7_12.c">凯撒密码</a>、<a href="Source/ch07/7_13.c">字符过滤</a>、<a href="Source/ch07/7_14.c">16进制->10进制</a>
 
 - 第八章：<a href="Source/ch08/8_04.c">日期计算</a>、<a href="Source/ch08/8_05.c">冒泡排序</a>、<a href="Source/ch08/8_08.c">字符串压缩</a>、<a href="Source/ch08/8_10.c">动态内存分配</a>
 
@@ -64,4 +64,6 @@ typora-copy-images-to: ./img
 - <a href="https://www.icourse163.org/course/ZJU-199001">程序设计入门</a>、<a href="https://www.icourse163.org/course/ZJU-200001">C语言程序设计进阶</a>(中国大学慕课MOOC)
 
 - <a href="https://pintia.cn/home">PTA</a>(配套编程练习平台)
+
+------
 
