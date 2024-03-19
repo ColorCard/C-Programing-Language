@@ -13,7 +13,9 @@ struct student {                   /* 学生信息结构定义 */
 
 int main() {
     int i, n;
-    struct student max, stu;         /* 定义结构变量 */
+
+    /* 定义结构变量 */
+    struct student max, stu;
 
     printf("Input n: ");
     scanf("%d", &n);

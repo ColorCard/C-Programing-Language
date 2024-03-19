@@ -3,17 +3,20 @@
 /* 学生成绩排序 */
 # include <stdio.h>
 
-struct student {                    /*学生信息结构定义*/
+struct student {                    /* 学生信息结构定义 */
     int num;                        /* 学号 */
     char name[10];                  /* 姓名 */
     int math, english, computer;    /* 三门课程成绩 */
     double average;                 /* 个人平均分 */
 };
 
+double count_average(struct student s);
+
 int main() {
     int i, j, n, index;
-    struct student students[50], temp;           /* 定义结构数组 */
-    double count_average(struct student s);
+
+    /* 定义结构数组 */
+    struct student students[50], temp;
 
     /* 输入 */
     printf("Input n: ");
@@ -38,12 +41,14 @@ int main() {
     for (i = 0; i < n - 1; i++) {
         index = i;
         for (j = i + 1; j < n; j++) {
-            if (students[j].average > students[index].average) {  /* 比较平均分*/
+            /* 比较平均分*/
+            if (students[j].average > students[index].average) {
                 index = j;
             }
         }
 
-        temp = students[index];        /* 交换数组元素 */
+        /* 交换数组元素 */
+        temp = students[index];
         students[index] = students[i];
         students[i] = temp;
     }
@@ -58,7 +63,8 @@ int main() {
     return 0;
 }
 
-double count_average(struct student s)  /* 计算个人平均分 */
+/* 计算个人平均分 */
+double count_average(struct student s)
 {
     return (s.math + s.english + s.computer) / 3.0;
 }

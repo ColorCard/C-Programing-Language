@@ -10,11 +10,14 @@ struct student {                    /* 学生信息结构定义 */
     double average;                 /* 个人平均分 */
 };
 
-int update_score(struct student *p, int n, int num, int course, int score); /*函数声明*/
+/*函数声明*/
+int update_score(struct student *p, int n, int num, int course, int score);
 
 int main() {
     int i, pos, n, num, course, score;
-    struct student students[50];        /* 定义结构数组 */
+
+    /* 定义结构数组 */
+    struct student students[50];
 
     /* 输入n个学生信息 */
     printf("Input n: ");
@@ -64,11 +67,14 @@ int main() {
 int update_score(struct student *p, int n, int num, int course, int score) {
     int i, pos;
 
-    for (i = 0; i < n; i++, p++)  /* 按学号查找 */
+    /* 按学号查找 */
+    for (i = 0; i < n; i++, p++)
         if (p->num == num) {
             break;
         }
-    if (i < n) { /* 找到，修改成绩 */
+
+    /* 找到，修改成绩 */
+    if (i < n) {
         switch (course) {
             case 1:
                 p->math = score;
@@ -80,8 +86,10 @@ int update_score(struct student *p, int n, int num, int course, int score) {
                 p->computer = score;
                 break;
         }
-        pos = i;  /* 学生位置 */
-    } else {   /* 无此学号 */
+        /* 学生位置 */
+        pos = i;
+    } else {
+        /* 无此学号 */
         pos = -1;
     }
 
