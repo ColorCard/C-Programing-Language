@@ -2,17 +2,21 @@
 
 /* 调用幂函数pow()生成乘方表 */
 #include <stdio.h>
-#include <math.h>   /* 程序中调用了数学库函数，需包含头文件math.h */
+
+/* 程序中调用了数学库函数，需包含头文件math.h */
+#include <math.h>
 
 int main() {
     int i, n;
     double power;
 
-    printf("Enter n:");            /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter n:");
     scanf("%d", &n);
 
     for (i = 0; i <= n; i++) {
-        power = pow(2, i);          /* 调用幂函数pow(2,i)计算2的i次方 */
+        /* 调用幂函数pow(2,i)计算2的i次方 */
+        power = pow(2, i);
         printf("pow(2,%d)= %.0f\n", i, power);
     }
 

@@ -17,7 +17,9 @@ int main() {
     scanf("%d", &day);                     /* 调用scanf()函数输入 */
 
 
-    result = initial * pow(1 + factor, day);  /* 调用幂函数pow()计算 */
+    /* 调用幂函数pow()计算 */
+    result = initial * pow(1 + factor, day);
+
     printf("result = %.2f\n", result);
 
     return 0;

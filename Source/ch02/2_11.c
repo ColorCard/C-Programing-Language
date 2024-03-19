@@ -1,18 +1,22 @@
-/*【例2-11】输入一个正整数n（n <= 16），生成一张阶乘表，输出0！到n！的值。要求定义和调用函数fact(n)计算n!，函数类型是double */
+/*【例2-11】输入一个正整数n（n <= 16），生成一张阶乘表，
+ * 输出0！到n！的值。要求定义和调用函数fact(n)计算n!，函数类型是double */
 
 /* 定义和调用求阶乘函数生成阶乘表 */
 #include <stdio.h>
 
 double fact(int n);                   /* 自定义函数的声明（简称函数声明）*/
+
 int main() {
     int i, n;
     double result;
 
-    printf("Enter n:");        /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter n:");
     scanf("%d", &n);
 
     for (i = 0; i <= n; i++) {
-        result = fact(i);         /* 调用自定义函数fact(i)计算i! */
+        /* 调用自定义函数fact(i)计算i! */
+        result = fact(i);
         printf("%d!=%.0f\n", i, result);
     }
 

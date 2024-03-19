@@ -6,15 +6,17 @@ int main() {
     int i, n;
     double product;                    /* 变量product中存放阶乘的值 */
 
-    printf("Enter n: ");        /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter n: ");
     scanf("%d", &n);
-    product = 1;                      /* 置阶乘product的初值为1 */
+    product = 1;                       /* 置阶乘product的初值为1 */
 
-    for (i = 1; i <= n; i++) {        /* 循环执行n次，计算n! */
+    for (i = 1; i <= n; i++) {         /* 循环执行n次，计算n! */
         product = product * i;
     }
 
-    printf("product = %.0f\n", product); /* %.0f指定输出时不要小数部分 */
+    /* %.0f指定输出时不要小数部分 */
+    printf("product = %.0f\n", product);
 
     return 0;
 }

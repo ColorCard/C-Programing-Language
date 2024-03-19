@@ -6,7 +6,8 @@ int main() {
     int denominator, flag, i, n;
     double item, sum;
 
-    printf("Enter n: ");        /* 输入提示 */
+    /* 输入提示 */
+    printf("Enter n: ");
     scanf("%d", &n);
 
     /* 执行循环前，给变量赋初值 */
