@@ -17,8 +17,11 @@ int main() {
 
 
     for (i = 1; i <= 5; i++) {                  /* for 的循环体语句开始 */
-        printf("Enter choice: ");        /* 输入提示 */
-        scanf("%d", &choice);            /* 接受用户输入的编号 */
+        /* 输入提示 */
+        printf("Enter choice: ");
+
+        /* 接受用户输入的编号 */
+        scanf("%d", &choice);
 
         /* 如果输入0，提前结束 for 循环 */
         if (choice == 0) {
@@ -45,9 +48,10 @@ int main() {
         }
         /* 输出商品的价格 */
         printf("price = %0.1f\n", price);
-    }                                         /* for 的循环体语句结束 */
+    }
 
-    printf("Thanks\n");                /* 结束查询，谢谢用户使用 */
+    /* 结束查询，谢谢用户使用 */
+    printf("Thanks\n");
 
     return 0;
 }

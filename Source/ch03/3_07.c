@@ -9,12 +9,15 @@ int main() {
 
     digit = letter = other = 0;            /* 置存放统计结果的三个变量的初值为零 */
 
-    printf("Enter n:");             /* 提示输入n */
+    /* 提示输入n */
+    printf("Enter n:");
     scanf("%d", &n);
 
-    getchar();                             /* 读入并舍弃换行符以免被ch误读 */
+    /* 读入并舍弃换行符以免被ch误读 */
+    getchar();
 
-    printf("Enter %d characters:", n);  /* 提示输入n个字符 */
+    /* 提示输入n个字符 */
+    printf("Enter %d characters:", n);
 
     for (i = 1; i <= n; i++) {             /* 循环执行了n次 */
         ch = getchar();                    /* 从键盘输入一个字符，赋值给变量 ch */
@@ -23,9 +26,11 @@ int main() {
         if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
             letter++;
         } else if (ch >= '0' && ch <= '9') {
-            digit++;                /* 如果ch是数字字符，累加digit */
+            /* 如果ch是数字字符，累加digit */
+            digit++;
         } else {
-            other++;                /* ch是除字母、数字字符以外的其他字符，累加other */
+            /* ch是除字母、数字字符以外的其他字符，累加other */
+            other++;
         }
     }
 
