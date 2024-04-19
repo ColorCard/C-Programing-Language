@@ -18,7 +18,6 @@ int main() {
         i++;
     } while (fabs(term) > eps);
 
-
     printf("sum = %.6lf", sum);
 
     return 0;

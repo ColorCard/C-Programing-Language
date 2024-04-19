@@ -3,6 +3,7 @@
 int main() {
     double mileAge, fee = 10;
     int waitingTime;
+
     scanf("%lf%d", &mileAge, &waitingTime);
 
     if (mileAge <= 3);

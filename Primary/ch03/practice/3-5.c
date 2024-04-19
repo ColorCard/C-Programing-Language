@@ -13,6 +13,7 @@ int main() {
                 printf("%d\n", i);
             }
         }
+
         if (0 == flag)
             printf("None");
     } else

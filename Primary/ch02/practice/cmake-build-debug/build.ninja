@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/data/ZJU_C/repo/PTA/ch02/practice/cmake-build-debug/
+cmake_ninja_workdir = D$:/data/ZJU_C/repo/Primary/ch02/practice/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-1
 
@@ -49,11 +49,13 @@ cmake_ninja_workdir = D$:/data/ZJU_C/repo/PTA/ch02/practice/cmake-build-debug/
 
 build cmake_object_order_depends_target_2-1: phony || CMakeFiles/2-1.dir
 
-build CMakeFiles/2-1.dir/2-1.c.obj: C_COMPILER__2-1_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-1.c || cmake_object_order_depends_target_2-1
+build CMakeFiles/2-1.dir/2-1.c.obj: C_COMPILER__2-1_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-1.c || cmake_object_order_depends_target_2-1
   DEP_FILE = CMakeFiles\2-1.dir\2-1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-1.dir
   OBJECT_FILE_DIR = CMakeFiles\2-1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-1.dir\
+  TARGET_PDB = 2-1.pdb
 
 
 # =============================================================================
@@ -69,9 +71,10 @@ build 2-1.exe: C_EXECUTABLE_LINKER__2-1_Debug CMakeFiles/2-1.dir/2-1.c.obj
   OBJECT_DIR = CMakeFiles\2-1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-1.dir\
   TARGET_FILE = 2-1.exe
   TARGET_IMPLIB = lib2-1.dll.a
-  TARGET_PDB = 2-1.exe.dbg
+  TARGET_PDB = 2-1.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-3
@@ -82,11 +85,13 @@ build 2-1.exe: C_EXECUTABLE_LINKER__2-1_Debug CMakeFiles/2-1.dir/2-1.c.obj
 
 build cmake_object_order_depends_target_2-3: phony || CMakeFiles/2-3.dir
 
-build CMakeFiles/2-3.dir/2-3.c.obj: C_COMPILER__2-3_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-3.c || cmake_object_order_depends_target_2-3
+build CMakeFiles/2-3.dir/2-3.c.obj: C_COMPILER__2-3_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-3.c || cmake_object_order_depends_target_2-3
   DEP_FILE = CMakeFiles\2-3.dir\2-3.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-3.dir
   OBJECT_FILE_DIR = CMakeFiles\2-3.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-3.dir\
+  TARGET_PDB = 2-3.pdb
 
 
 # =============================================================================
@@ -102,9 +107,10 @@ build 2-3.exe: C_EXECUTABLE_LINKER__2-3_Debug CMakeFiles/2-3.dir/2-3.c.obj
   OBJECT_DIR = CMakeFiles\2-3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-3.dir\
   TARGET_FILE = 2-3.exe
   TARGET_IMPLIB = lib2-3.dll.a
-  TARGET_PDB = 2-3.exe.dbg
+  TARGET_PDB = 2-3.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-4
@@ -115,11 +121,13 @@ build 2-3.exe: C_EXECUTABLE_LINKER__2-3_Debug CMakeFiles/2-3.dir/2-3.c.obj
 
 build cmake_object_order_depends_target_2-4: phony || CMakeFiles/2-4.dir
 
-build CMakeFiles/2-4.dir/2-4.c.obj: C_COMPILER__2-4_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-4.c || cmake_object_order_depends_target_2-4
+build CMakeFiles/2-4.dir/2-4.c.obj: C_COMPILER__2-4_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-4.c || cmake_object_order_depends_target_2-4
   DEP_FILE = CMakeFiles\2-4.dir\2-4.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-4.dir
   OBJECT_FILE_DIR = CMakeFiles\2-4.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-4.dir\
+  TARGET_PDB = 2-4.pdb
 
 
 # =============================================================================
@@ -135,9 +143,10 @@ build 2-4.exe: C_EXECUTABLE_LINKER__2-4_Debug CMakeFiles/2-4.dir/2-4.c.obj
   OBJECT_DIR = CMakeFiles\2-4.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-4.dir\
   TARGET_FILE = 2-4.exe
   TARGET_IMPLIB = lib2-4.dll.a
-  TARGET_PDB = 2-4.exe.dbg
+  TARGET_PDB = 2-4.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-6
@@ -148,11 +157,13 @@ build 2-4.exe: C_EXECUTABLE_LINKER__2-4_Debug CMakeFiles/2-4.dir/2-4.c.obj
 
 build cmake_object_order_depends_target_2-6: phony || CMakeFiles/2-6.dir
 
-build CMakeFiles/2-6.dir/2-6.c.obj: C_COMPILER__2-6_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-6.c || cmake_object_order_depends_target_2-6
+build CMakeFiles/2-6.dir/2-6.c.obj: C_COMPILER__2-6_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-6.c || cmake_object_order_depends_target_2-6
   DEP_FILE = CMakeFiles\2-6.dir\2-6.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-6.dir
   OBJECT_FILE_DIR = CMakeFiles\2-6.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-6.dir\
+  TARGET_PDB = 2-6.pdb
 
 
 # =============================================================================
@@ -168,9 +179,10 @@ build 2-6.exe: C_EXECUTABLE_LINKER__2-6_Debug CMakeFiles/2-6.dir/2-6.c.obj
   OBJECT_DIR = CMakeFiles\2-6.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-6.dir\
   TARGET_FILE = 2-6.exe
   TARGET_IMPLIB = lib2-6.dll.a
-  TARGET_PDB = 2-6.exe.dbg
+  TARGET_PDB = 2-6.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-8
@@ -181,11 +193,13 @@ build 2-6.exe: C_EXECUTABLE_LINKER__2-6_Debug CMakeFiles/2-6.dir/2-6.c.obj
 
 build cmake_object_order_depends_target_2-8: phony || CMakeFiles/2-8.dir
 
-build CMakeFiles/2-8.dir/2-8.c.obj: C_COMPILER__2-8_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-8.c || cmake_object_order_depends_target_2-8
+build CMakeFiles/2-8.dir/2-8.c.obj: C_COMPILER__2-8_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-8.c || cmake_object_order_depends_target_2-8
   DEP_FILE = CMakeFiles\2-8.dir\2-8.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-8.dir
   OBJECT_FILE_DIR = CMakeFiles\2-8.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-8.dir\
+  TARGET_PDB = 2-8.pdb
 
 
 # =============================================================================
@@ -201,9 +215,10 @@ build 2-8.exe: C_EXECUTABLE_LINKER__2-8_Debug CMakeFiles/2-8.dir/2-8.c.obj
   OBJECT_DIR = CMakeFiles\2-8.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-8.dir\
   TARGET_FILE = 2-8.exe
   TARGET_IMPLIB = lib2-8.dll.a
-  TARGET_PDB = 2-8.exe.dbg
+  TARGET_PDB = 2-8.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-9
@@ -214,11 +229,13 @@ build 2-8.exe: C_EXECUTABLE_LINKER__2-8_Debug CMakeFiles/2-8.dir/2-8.c.obj
 
 build cmake_object_order_depends_target_2-9: phony || CMakeFiles/2-9.dir
 
-build CMakeFiles/2-9.dir/2-9.c.obj: C_COMPILER__2-9_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-9.c || cmake_object_order_depends_target_2-9
+build CMakeFiles/2-9.dir/2-9.c.obj: C_COMPILER__2-9_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-9.c || cmake_object_order_depends_target_2-9
   DEP_FILE = CMakeFiles\2-9.dir\2-9.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-9.dir
   OBJECT_FILE_DIR = CMakeFiles\2-9.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-9.dir\
+  TARGET_PDB = 2-9.pdb
 
 
 # =============================================================================
@@ -234,9 +251,10 @@ build 2-9.exe: C_EXECUTABLE_LINKER__2-9_Debug CMakeFiles/2-9.dir/2-9.c.obj
   OBJECT_DIR = CMakeFiles\2-9.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-9.dir\
   TARGET_FILE = 2-9.exe
   TARGET_IMPLIB = lib2-9.dll.a
-  TARGET_PDB = 2-9.exe.dbg
+  TARGET_PDB = 2-9.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-10
@@ -247,11 +265,13 @@ build 2-9.exe: C_EXECUTABLE_LINKER__2-9_Debug CMakeFiles/2-9.dir/2-9.c.obj
 
 build cmake_object_order_depends_target_2-10: phony || CMakeFiles/2-10.dir
 
-build CMakeFiles/2-10.dir/2-10.c.obj: C_COMPILER__2-10_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-10.c || cmake_object_order_depends_target_2-10
+build CMakeFiles/2-10.dir/2-10.c.obj: C_COMPILER__2-10_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-10.c || cmake_object_order_depends_target_2-10
   DEP_FILE = CMakeFiles\2-10.dir\2-10.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-10.dir
   OBJECT_FILE_DIR = CMakeFiles\2-10.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-10.dir\
+  TARGET_PDB = 2-10.pdb
 
 
 # =============================================================================
@@ -267,9 +287,10 @@ build 2-10.exe: C_EXECUTABLE_LINKER__2-10_Debug CMakeFiles/2-10.dir/2-10.c.obj
   OBJECT_DIR = CMakeFiles\2-10.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-10.dir\
   TARGET_FILE = 2-10.exe
   TARGET_IMPLIB = lib2-10.dll.a
-  TARGET_PDB = 2-10.exe.dbg
+  TARGET_PDB = 2-10.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-11
@@ -280,11 +301,13 @@ build 2-10.exe: C_EXECUTABLE_LINKER__2-10_Debug CMakeFiles/2-10.dir/2-10.c.obj
 
 build cmake_object_order_depends_target_2-11: phony || CMakeFiles/2-11.dir
 
-build CMakeFiles/2-11.dir/2-11.c.obj: C_COMPILER__2-11_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-11.c || cmake_object_order_depends_target_2-11
+build CMakeFiles/2-11.dir/2-11.c.obj: C_COMPILER__2-11_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-11.c || cmake_object_order_depends_target_2-11
   DEP_FILE = CMakeFiles\2-11.dir\2-11.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-11.dir
   OBJECT_FILE_DIR = CMakeFiles\2-11.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-11.dir\
+  TARGET_PDB = 2-11.pdb
 
 
 # =============================================================================
@@ -300,9 +323,10 @@ build 2-11.exe: C_EXECUTABLE_LINKER__2-11_Debug CMakeFiles/2-11.dir/2-11.c.obj
   OBJECT_DIR = CMakeFiles\2-11.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-11.dir\
   TARGET_FILE = 2-11.exe
   TARGET_IMPLIB = lib2-11.dll.a
-  TARGET_PDB = 2-11.exe.dbg
+  TARGET_PDB = 2-11.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-12
@@ -313,11 +337,13 @@ build 2-11.exe: C_EXECUTABLE_LINKER__2-11_Debug CMakeFiles/2-11.dir/2-11.c.obj
 
 build cmake_object_order_depends_target_2-12: phony || CMakeFiles/2-12.dir
 
-build CMakeFiles/2-12.dir/2-12.c.obj: C_COMPILER__2-12_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-12.c || cmake_object_order_depends_target_2-12
+build CMakeFiles/2-12.dir/2-12.c.obj: C_COMPILER__2-12_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-12.c || cmake_object_order_depends_target_2-12
   DEP_FILE = CMakeFiles\2-12.dir\2-12.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-12.dir
   OBJECT_FILE_DIR = CMakeFiles\2-12.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-12.dir\
+  TARGET_PDB = 2-12.pdb
 
 
 # =============================================================================
@@ -333,9 +359,10 @@ build 2-12.exe: C_EXECUTABLE_LINKER__2-12_Debug CMakeFiles/2-12.dir/2-12.c.obj
   OBJECT_DIR = CMakeFiles\2-12.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-12.dir\
   TARGET_FILE = 2-12.exe
   TARGET_IMPLIB = lib2-12.dll.a
-  TARGET_PDB = 2-12.exe.dbg
+  TARGET_PDB = 2-12.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-13
@@ -346,11 +373,13 @@ build 2-12.exe: C_EXECUTABLE_LINKER__2-12_Debug CMakeFiles/2-12.dir/2-12.c.obj
 
 build cmake_object_order_depends_target_2-13: phony || CMakeFiles/2-13.dir
 
-build CMakeFiles/2-13.dir/2-13.c.obj: C_COMPILER__2-13_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-13.c || cmake_object_order_depends_target_2-13
+build CMakeFiles/2-13.dir/2-13.c.obj: C_COMPILER__2-13_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-13.c || cmake_object_order_depends_target_2-13
   DEP_FILE = CMakeFiles\2-13.dir\2-13.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-13.dir
   OBJECT_FILE_DIR = CMakeFiles\2-13.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-13.dir\
+  TARGET_PDB = 2-13.pdb
 
 
 # =============================================================================
@@ -366,9 +395,10 @@ build 2-13.exe: C_EXECUTABLE_LINKER__2-13_Debug CMakeFiles/2-13.dir/2-13.c.obj
   OBJECT_DIR = CMakeFiles\2-13.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-13.dir\
   TARGET_FILE = 2-13.exe
   TARGET_IMPLIB = lib2-13.dll.a
-  TARGET_PDB = 2-13.exe.dbg
+  TARGET_PDB = 2-13.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-14
@@ -379,11 +409,13 @@ build 2-13.exe: C_EXECUTABLE_LINKER__2-13_Debug CMakeFiles/2-13.dir/2-13.c.obj
 
 build cmake_object_order_depends_target_2-14: phony || CMakeFiles/2-14.dir
 
-build CMakeFiles/2-14.dir/2-14.c.obj: C_COMPILER__2-14_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-14.c || cmake_object_order_depends_target_2-14
+build CMakeFiles/2-14.dir/2-14.c.obj: C_COMPILER__2-14_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-14.c || cmake_object_order_depends_target_2-14
   DEP_FILE = CMakeFiles\2-14.dir\2-14.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-14.dir
   OBJECT_FILE_DIR = CMakeFiles\2-14.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-14.dir\
+  TARGET_PDB = 2-14.pdb
 
 
 # =============================================================================
@@ -399,9 +431,10 @@ build 2-14.exe: C_EXECUTABLE_LINKER__2-14_Debug CMakeFiles/2-14.dir/2-14.c.obj
   OBJECT_DIR = CMakeFiles\2-14.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-14.dir\
   TARGET_FILE = 2-14.exe
   TARGET_IMPLIB = lib2-14.dll.a
-  TARGET_PDB = 2-14.exe.dbg
+  TARGET_PDB = 2-14.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-15
@@ -412,11 +445,13 @@ build 2-14.exe: C_EXECUTABLE_LINKER__2-14_Debug CMakeFiles/2-14.dir/2-14.c.obj
 
 build cmake_object_order_depends_target_2-15: phony || CMakeFiles/2-15.dir
 
-build CMakeFiles/2-15.dir/2-15.c.obj: C_COMPILER__2-15_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-15.c || cmake_object_order_depends_target_2-15
+build CMakeFiles/2-15.dir/2-15.c.obj: C_COMPILER__2-15_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-15.c || cmake_object_order_depends_target_2-15
   DEP_FILE = CMakeFiles\2-15.dir\2-15.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-15.dir
   OBJECT_FILE_DIR = CMakeFiles\2-15.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-15.dir\
+  TARGET_PDB = 2-15.pdb
 
 
 # =============================================================================
@@ -432,9 +467,10 @@ build 2-15.exe: C_EXECUTABLE_LINKER__2-15_Debug CMakeFiles/2-15.dir/2-15.c.obj
   OBJECT_DIR = CMakeFiles\2-15.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-15.dir\
   TARGET_FILE = 2-15.exe
   TARGET_IMPLIB = lib2-15.dll.a
-  TARGET_PDB = 2-15.exe.dbg
+  TARGET_PDB = 2-15.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-17
@@ -445,11 +481,13 @@ build 2-15.exe: C_EXECUTABLE_LINKER__2-15_Debug CMakeFiles/2-15.dir/2-15.c.obj
 
 build cmake_object_order_depends_target_2-17: phony || CMakeFiles/2-17.dir
 
-build CMakeFiles/2-17.dir/2-17.c.obj: C_COMPILER__2-17_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-17.c || cmake_object_order_depends_target_2-17
+build CMakeFiles/2-17.dir/2-17.c.obj: C_COMPILER__2-17_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-17.c || cmake_object_order_depends_target_2-17
   DEP_FILE = CMakeFiles\2-17.dir\2-17.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-17.dir
   OBJECT_FILE_DIR = CMakeFiles\2-17.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-17.dir\
+  TARGET_PDB = 2-17.pdb
 
 
 # =============================================================================
@@ -465,9 +503,10 @@ build 2-17.exe: C_EXECUTABLE_LINKER__2-17_Debug CMakeFiles/2-17.dir/2-17.c.obj
   OBJECT_DIR = CMakeFiles\2-17.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-17.dir\
   TARGET_FILE = 2-17.exe
   TARGET_IMPLIB = lib2-17.dll.a
-  TARGET_PDB = 2-17.exe.dbg
+  TARGET_PDB = 2-17.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-18
@@ -478,11 +517,13 @@ build 2-17.exe: C_EXECUTABLE_LINKER__2-17_Debug CMakeFiles/2-17.dir/2-17.c.obj
 
 build cmake_object_order_depends_target_2-18: phony || CMakeFiles/2-18.dir
 
-build CMakeFiles/2-18.dir/2-18.c.obj: C_COMPILER__2-18_Debug D$:/data/ZJU_C/repo/PTA/ch02/practice/2-18.c || cmake_object_order_depends_target_2-18
+build CMakeFiles/2-18.dir/2-18.c.obj: C_COMPILER__2-18_Debug D$:/data/ZJU_C/repo/Primary/ch02/practice/2-18.c || cmake_object_order_depends_target_2-18
   DEP_FILE = CMakeFiles\2-18.dir\2-18.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\2-18.dir
   OBJECT_FILE_DIR = CMakeFiles\2-18.dir
+  TARGET_COMPILE_PDB = CMakeFiles\2-18.dir\
+  TARGET_PDB = 2-18.pdb
 
 
 # =============================================================================
@@ -498,16 +539,17 @@ build 2-18.exe: C_EXECUTABLE_LINKER__2-18_Debug CMakeFiles/2-18.dir/2-18.c.obj
   OBJECT_DIR = CMakeFiles\2-18.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2-18.dir\
   TARGET_FILE = 2-18.exe
   TARGET_IMPLIB = lib2-18.dll.a
-  TARGET_PDB = 2-18.exe.dbg
+  TARGET_PDB = 2-18.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\data\ZJU_C\repo\PTA\ch02\practice\cmake-build-debug && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\data\ZJU_C\repo\Primary\ch02\practice\cmake-build-debug && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -518,7 +560,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\data\ZJU_C\repo\PTA\ch02\practice\cmake-build-debug && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\data\ZJU_C\repo\PTA\ch02\practice -BD:\data\ZJU_C\repo\PTA\ch02\practice\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\data\ZJU_C\repo\Primary\ch02\practice\cmake-build-debug && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\data\ZJU_C\repo\Primary\ch02\practice -BD:\data\ZJU_C\repo\Primary\ch02\practice\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -562,7 +604,7 @@ build 2-9: phony 2-9.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/data/ZJU_C/repo/PTA/ch02/practice/cmake-build-debug
+# Folder: D:/data/ZJU_C/repo/Primary/ch02/practice/cmake-build-debug
 
 build all: phony 2-1.exe 2-3.exe 2-4.exe 2-6.exe 2-8.exe 2-9.exe 2-10.exe 2-11.exe 2-12.exe 2-13.exe 2-14.exe 2-15.exe 2-17.exe 2-18.exe
 
@@ -573,14 +615,14 @@ build all: phony 2-1.exe 2-3.exe 2-4.exe 2-6.exe 2-8.exe 2-9.exe 2-10.exe 2-11.e
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/ZJU_C/repo/PTA/ch02/practice/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/ZJU_C/repo/Primary/ch02/practice/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/ZJU_C/repo/PTA/ch02/practice/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/ZJU_C/repo/Primary/ch02/practice/CMakeLists.txt: phony
 
 
 #############################################
